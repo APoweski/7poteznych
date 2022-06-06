@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nic</title>
+  <style>
+    body {
+      margin: 0;
+      height: fit-content;
+      color: darkblue;
+      background-color: gainsboro;
+      font-size: 10vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    article {
+      text-align: center;
+    }
+    section {
+      display: inline-block;
+      width: 90%;
+      background-color: gray;
+      min-height: 10vh;
+      border-radius: 2vh;
+    }
+    .header {
+      font-size: 15vw;
+    }
+    .big {
+      border-radius: 3vh;
+      width: 350px; height: 350px;
+    }
+    .gallery {
+      margin-top: 5vh;
+      display: inline-flex;
+      justify-content: center;
+      gap: 1vw;
+    }
+    .gallery img{
+      border-radius: 1vh;
+      width: 150px;
+      height: 150px;
+      transition: 150ms ease-out;
+    }
+    .gallery img:hover{
+      transform: scale(1.4);
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <header>
+      Janusz "Snax" Pogorzelski<br>
+      <img class="big" src="../img/article_snax.png">
+    </header>
+    <section>
+      Zawodnik E-Sportowy. Profesjonalny gracz. Gra głównie w gry z serii Counter Strike. Należał do "Złotej Piątki" przed jej rozpadem.
+    </section>
+    <section class="gallery">
+      <img src="../img/gal_snax.png">
+      <img src="../img/snax1.png">
+      <img src="../img/snax2.png">
+      <img src="../img/snax3.png">
+      <img src="../img/article_snax.png">
+    </section>
+  </article>
+</body>
+</html>
